@@ -18,7 +18,7 @@ def receive_messages(client_socket):
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Устанавливаем хост и порт сервера
-server_host = '192.168.0.12'
+server_host = input('Введите IP адрес сервера:\n')
 server_port = 12345
 
 # Подключаемся к серверу
